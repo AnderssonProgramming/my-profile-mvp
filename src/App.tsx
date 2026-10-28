@@ -9,6 +9,7 @@ import Disciplines from './components/Disciplines'
 import Hyrox from './components/Hyrox'
 import Stats from './components/Stats'
 import VisionLab from './components/VisionLab'
+import CourtVision from './components/CourtVision'
 import { Timeline, Projects } from './components/Career'
 import CourtSection from './components/CourtSection'
 import Contact from './components/Contact'
@@ -60,6 +61,7 @@ export default function App() {
           <Hyrox />
           <Stats />
           <VisionLab />
+          <CourtVision />
           <Timeline />
           <Projects />
           <CourtSection />

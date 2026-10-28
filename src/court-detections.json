@@ -1,0 +1,147 @@
+{
+ "workflow": "ander-eci/general-segmentation-api-2",
+ "classes": "basketball, basketball hoop, person",
+ "analyzedAt": "2026-10-28T11:29:30.189Z",
+ "image": {
+  "width": 959,
+  "height": 1280
+ },
+ "detections": [
+  {
+   "class": "person",
+   "confidence": 0.965,
+   "x": 512.5,
+   "y": 911,
+   "width": 239,
+   "height": 738,
+   "mask": {
+    "x": 392,
+    "y": 542,
+    "w": 121,
+    "h": 370,
+    "scale": 2,
+    "area": 22959,
+    "bits": "AAAAAADwDwAAAAAAAAAAAAAAAAD+fwAAAAAAAAAAAAAAAAD//wMAAAAAAAAAAAAAAID//w8AAAAAAAAAAAAAAAD//z8AAAAAAAAAAAAAAAD///8AAAAAAAAAAAAAAAD///8DAAAAAAAAAAAAAAD///8PAAAAAAAAAAAAAAD+//8fAAAAAAAAAAAAAAD+//9/AAAAAAAAAAAAAAD+////AQAAAAAAAAAAAAD8////AwAAAAAAAAAAAAD8////DwAAAAAAAAAAAAD4////HwAAAAAAAAAAAADw////PwAAAAAAAAAAAADg////fwAAAAAAAAAAAADA/////wEAAAAAAAAAAACA/////wMAAAAAAAAAAAAA/////wcAAAAAAAAAAAAA/v///w8AAAAAAAAAAAAA/P///x8AAAAAAAAAAAAA+P///x8AAAAAAAAAAAAA8P///z8AAAAAAAAAAAAA4P///38AAAAAAAAAAAAAwP////8AAAAAAAAAAAAAgP////8BAAAAAAAAAAAAAP////8HAAAAAAAAAAAAAP////8PAAAAAAAAAAAAAP7///8fAAAAAAAAAAAAAPz///8/AAAAAAAAAAAAAPj///9/AAAAAAAAAAAAAOD/////AAAAAAAAAAAAAMD/////AQAAAAAAAAAAAID/////AQAAAAAAAAAAAAD+////AwAAAAAAAAAAAAD4////AwAAAAAAAAAAAADg////AwAAAAAAAAAAAACA////AwAAAAAAAAAAAAAA////BwAAAAAAAAAAAAAA/P//BwAAAAAAAAAAAAAA+P//DwAAAAAAAAAAAAAA8P//HwAAAAAAAAAAAAAA4P//PwAAAAAAAAAAAAAAgP//fwAAAAAAAAAAAAAAAP//fwAAAAAAAAAAAAAAAP7//wAAAAAAAAAAAAAAAPz//wEAAAAAAAAAAAAAAPz//wcAAAAAAAAAAAAAAPj//w8AAAAAAAAAAAAAAPj//z8AAAAAAAAAAAAAAPz///8BAAAAAAAAAAAAAPz///8HAAAAAAAAAAAAAP7///8fAAAAAAAAAAAAAP//////AAAAAAAAAAAAwP//////BwAAAAAAAAAA+P//////PwAAAAAAAADA/////////wEAAAAAAADw/////////w8AAAAAAADw//////////8BAAAAAADw//////////8HAAAAAADw//////////8fAAAAAADw//////////8/AAAAAADw////////////AAAAAADg////////////AwAAAADA////////////AwAAAADA////////////BwAAAACA////////////DwAAAAAA////////////DwAAAAAA////////////DwAAAAAA/v//////////HwAAAAAA/P//////////HwAAAAAA+P//////////PwAAAAAA8P//////////fwAAAAAA8P//////////fwAAAAAA4P///////////wAAAAAAwP///////////wEAAAAAgP///////////wMAAAAAAP///////////wcAAAAAAP7//////////w8AAAAAAP7//////////x8AAAAAAPz//////////z8AAAAAAPj//////////38AAAAAAPD///////////8AAAAAAOD///////////8BAAAAAMD///////////8DAAAAAMD///////////8HAAAAAID///////////8PAAAAAAD///////////8/AAAAAAD+//////////9/AAAAAAD8////////////AAAAAAD4////////////AQAAAADw////////////AwAAAADg////////////DwAAAADA////////////HwAAAACA////////////PwAAAAAA/////////////wAAAAAA/v///////////wMAAAAA/P///////////w8AAAAA+P///////////x8AAAAA8P////////////8AAAAA4P////////////8DAAAAwP////////////8PAAAAgP////////////9/AAAAAP7/////////////AQAAAPz/////////////DwAAAPj/////////////fwAAAPD//////////////wcAAOD///////////////8BAMD/////////////////A4D/////////////////DwD/////////////////HwD+////////////////PwD4////////////////fwDw////////////3////wDg////////////P////wCA////////////P/7//wEA/v//////////f/j//wMA/P////////////D//wcA8P///////////+H//wcAgP///////////4P//w8AAOD//////////w///x8AAID//////////x/8/x8AAAD//////////z/4/z8AAAD+/////////3/g/z8AAAD8//////////+A/z8AAAD4//////////8B/38AAADw//////////8D/H8AAADg//////////8H8H8AAADA//////////8PgH8AAACA//////////8fADwAAAAA//////////8/AAAAAAAA/v////////9/AAAAAAAA/v//////////AAAAAAAA/P//////////AQAAAAAA+P//////////AwAAAAAA8P//////////DwAAAAAA4P//////////HwAAAAAAwP//////////PwAAAAAAgP///////////wAAAAAAAP///////////wEAAAAAAP7//////////wMAAAAAAPz//////////w8AAAAAAPj//////////x8AAAAAAPD//////////z8AAAAAAMD//////////38AAAAAAID///////////8AAAAAAAD///////////8BAAAAAAD+//////////8DAAAAAAD8//////////8PAAAAAAD4//////////8fAAAAAAD4//////////8/AAAAAADw//////////9/AAAAAADg////////////AAAAAADA////////////AQAAAACA////////////AwAAAAAA////////////BwAAAAAA/v//////////HwAAAAAA/P//////////PwAAAAAA+P//////////fwAAAAAA8P///////////wAAAAAA8P///////////wEAAAAA4P///////////wMAAAAAwP///////////wcAAAAAgP///////////x8AAAAAAP///////////z8AAAAAAP7//////////38AAAAAAPz///////////8AAAAAAPj///////////8BAAAAAPD///////////8DAAAAAOD///////////8HAAAAAMD///////////8fAAAAAID///////////8/AAAAAAD///////////9/AAAAAAD/////////////AAAAAAD+////////////AQAAAAD8////////////AwAAAAD4////////////BwAAAADw////////////DwAAAADg////////////HwAAAADA////////////fwAAAACA/////////////wAAAAAA/////////////wEAAAAA/v///////////wMAAAAA/P///////////wcAAAAA+P///////////x8AAAAA8P///////////z8AAAAA8P///////////38AAAAA4P////////////8AAAAAwP////////////8DAAAAgP////////////8HAAAAAP////////////8PAAAAAP7///////////8fAAAAAPz///////////8/AAAAAPj/////////////AAAAAPD/////////////AQAAAPD/////////////AwAAAOD/////////////BwAAAMD/////////////HwAAAID/////////////PwAAAAD/////////////fwAAAAD+/////////////wAAAAD8/////////////wEAAAD4/////////////wMAAADw/////////////w8AAADg/////////////x8AAADA/////////////z8AAACA/////////////38AAAAA//////////////8AAAAA/v////////////8DAAAA/P////////////8HAAAA+P////8///////8PAAAA+P////9//v////8fAAAA8P///////P////9/AAAA4P//////8f//////AAAAwP//////4f//////AQAAgP//////g///////AwAAAP//////B///////BwAAAP7/////D/7/////DwAAAPz/////H/j/////HwAAAPj/////P/D/////PwAAAPD/////f+D//////wAAAOD//////4D//////wEAAOD//////wH//////wMAAMD//////wP+/////wcAAID//////wf8/////w8AAAD//////wfw/////x8AAAD+/////w/g/////38AAAD8/////x/A//////8AAAD4/////z+A//////8BAADw/////38A//////8BAADg/////38A/v////8DAADA//////8A/P////8DAACA//////8B+P////8DAAAA//////8D4P////8HAAAA//////8HwP////8PAAAA/v////8PgP////8fAAAA/P////8fAP////8/AAAA+P////8/AP7///9/AAAA4P////9/APj/////AAAAgP//////APD/////AQAAAP7///9/AOD/////AwAAAPj///9/AID/////BwAAAID/////AAD+////HwAAAADg////AQAA+P//PwAAAAAA////AwAA8P//fwAAAAAA/P//BwAA4P///wAAAAAA+P//DwAAwP///wEAAAAA8P//HwAAAP///wMAAAAA4P//PwAAAP7//wcAAAAAwP//fwAAAPz//w8AAAAAgP///wAAAPj//x8AAAAAAP///wEAAPD//z8AAAAAAP7//wMAAMD//38AAAAAAPz//wcAAID///8AAAAAAPj//w8AAAD///8BAAAAAPD//x8AAAD+//8DAAAAAOD//z8AAAD4//8HAAAAAMD//38AAADw//8fAAAAAMD///8AAADg//8/AAAAAID///8AAADA//9/AAAAAAD///8BAACA////AAAAAAD+//8DAAAA/v//AwAAAAD8//8HAAAA/P//BwAAAAD4//8HAAAA+P//DwAAAADw//8PAAAA8P//HwAAAADg//8fAAAA4P//PwAAAADA//8/AAAAwP///wAAAACA//9/AAAAgP///wEAAACA//9/AAAAAP///wMAAAAA////AAAAAP7//wcAAAAA/v//AQAAAPz//w8AAAAA/P//AwAAAPj//x8AAAAA+P//BwAAAPD//z8AAAAA8P//DwAAAOD//38AAAAA4P//HwAAAMD///8AAAAAwP//HwAAAID///8BAAAAgP//PwAAAAD///8DAAAAAP//fwAAAAD+//8HAAAAAP7//wAAAAD8//8PAAAAAPz//wEAAAD4//8fAAAAAPj//wMAAADw//8/AAAAAPj//wcAAADg//9/AAAAAPD//x8AAADA////AAAAAOD//z8AAACA////AQAAAID//38AAAAA////AwAAAAD///8AAAAA/v//BwAAAAD+//8BAAAA+P//DwAAAAD8//8DAAAA8P//DwAAAAD4//8HAAAA4P//HwAAAADw//8fAAAAwP//PwAAAADg//8/AAAAgP//fwAAAADA//9/AAAAAP///wAAAACA////AAAAAP7//wEAAAAA////AQAAAPz//wMAAAAA/v//AwAAAPj//wcAAAAA/P//BwAAAPD//w8AAAAA+P//DwAAAMD//x8AAAAA8P//HwAAAID//z8AAAAA4P//PwAAAAD//38AAAAAwP//fwAAAAD8//8AAAAAgP///wAAAAD4//8BAAAAAP7//wEAAADw//8DAAAAAPz//wMAAADg//8HAAAAAPj//wcAAADA//8PAAAAAPD//w8AAACA//8fAAAAAOD//x8AAAAA/v8/AAAAAMD//z8AAAAA/P9/AAAAAID//38AAAAA+P//AAAAAAD///8AAAAA8P//AQAAAAD+//8BAAAAwP//AwAAAAD8//8DAAAAgP//BwAAAADw//8HAAAAAP//BwAAAADg//8PAAAAAP7/DwAAAADA//8fAAAAAPz/HwAAAACA//8/AAAAAPj/PwAAAAAA//9/AAAAAPD/fwAAAAAA/v//AAAAAOD//wAAAAAA/P//AQAAAMD//wEAAAAA+P//AwAAAID//wMAAAAA8P//BwAAAAD+/wcAAAAA4P//DwAAAAD8/w8AAAAAwP//HwAAAAD4/x8AAAAAgP//PwAAAADw/z8AAAAAAP//fwAAAADg/38AAAAAAP7//wAAAADA//8AAAAAAPj//wEAAAAA//8BAAAAAPD//wMAAAAA/v8DAAAAAOD//wcAAAAA/P8PAAAAAMD//w8AAAAA+P8/AAAAAAD//w8AAAAA8P//AAAAAAD+/x8AAAAA4P//AQAAAAD8/z8AAAAAwP//AwAAAAD4/38AAAAAgP//BwAAAADw//8AAAAAAP//DwAAAADA//8BAAAAAP7/HwAAAACA//8DAAAAAPz/PwAAAAAA//8HAAAAAPj/fwAAAAAA/v8PAAAAAPj//wAAAAAA+P8fAAAAAPD//wEAAAAA8P8/AAAAAOD//wMAAAAA4P9/AAAAAMD//w8AAAAAwP//AAAAAID//x8AAAAAgP//AQAAAAD//38AAAAAAP//AwAAAAD+//8AAAAAAPz/DwAAAAD+//8DAAAAAPj/HwAAAAD8//8HAAAAAPD/fwAAAAD4//8fAAAAAOD//wEAAADw//8/AAAAAID//w8AAADg////AAAAAAD//x8AAADA////AQAAAAD+/38AAADA////BwAAAAD8/38AAACA////DwAAAAD4//8AAAAA////PwAAAADw//8AAAAA/v//fwAAAADg//8BAAAA/P///wEAAADA//8DAAAA+P///wcAAACA//8HAAAA8P///w8AAACA//8PAAAA4P///z8AAAAA//8fAAAAwP////8AAAAA/v8/AAAAgP////8DAAAA/P9/AAAAAP7///8PAAAA+P//AAAAAPj///8/AAAA+P//AwAAAOD///9/AAAA8P//BwAAAID/////AQAA4P//DwAAAAD/////BwAA4P//HwAAAAD8////DwAAwP//PwAAAADw////HwAAgP//PwAAAADA////fwAAAP7AfwAAAAAA///8/wAAAPyB/wAAAAAA/v/5/wE="
+   }
+  },
+  {
+   "class": "basketball hoop",
+   "confidence": 0.574,
+   "x": 479.5,
+   "y": 182,
+   "width": 163,
+   "height": 158,
+   "mask": {
+    "x": 398,
+    "y": 102,
+    "w": 83,
+    "h": 80,
+    "scale": 2,
+    "area": 1643,
+    "bits": "AAAAAAAAAAAAAAAA/D8AAAD+fwAAAPD///////8HAADA////////PwAAAP7///////8DAAD4////////HwAAwP////////8BAAD/////////HwAA+P//DwD///8AAOD//w8AgP//DwAA//8PAADw/38AAPz/DwAAAPz/BwDw/x8AAACA/38AgP8fAAAAAOD/AwD+fwAAAAAA/j8A8P8BAAAAAMD/AcD/AwAAAAAA/B8A/g8AAAAAAMD/APg/AAAAAAAA+A/A/wAAAAAAAIB/AP8DAAAAAAAA+AP4DwAAAAAAAIA/4D8AAAAAAAAA+AH/AAAAAAAAAMAf/AMAAAAAAAAA/OAPAAAAAAAAAMAHPwAAAAAAAAAAPvgBAAAAAAAAAODjBwAAAAAAAAAAHz8AAAAAAAAAAPD4AAAAAAAAAACAxwcAAAAAAAAAADweAAAAAAAAAADA8QAAAAAAAAAAAI4HAAAAAAAAAADwHgAAAAAAAAAAgPcAAAAAAAAAAAC8BwAAAAAAAAAA4D0AAAAAAAAAAADvAQAAAAAAAAAAeA8AAAAAAAAAAMB7AAAAAAAAAAAA3gMAAAAAAAAAAPAeAAAAAAAAAACA9wAAAAAAAAAAALwHAAAAAAAAAADgPQAAAAAAAAAAgMcBAAAAAAAAAAA8HgAAAAAAAAAA4PEAAAAAAAAAAICPBwAAAAAAAAAAfHwAAAAAAAAAAODBAwAAAAAAAACADx4AAAAAAAAAAHzwAQAAAAAAAADwAQ8AAAAAAAAAwA/4AAAAAAAAAAB+wA8AAAAAAAAA+AF8AAAAAAAAAOAP4AcAAAAAAACAPwB+AAAAAAAAAP4B8AcAAAAAAAD4BwB/AAAAAAAAwB8A8AcAAAAAAIB/AAB/AAAAAAAA/gMA+A8AAAAAAPwPAID/AAAAAADwPwAA+B8AAAAA4P8AAID/AwAAAMD/AwAA+H8AAACA/w8AAID/PwAAgP8/AAAA8P8HAMD/fwAAAAD//5////8BAAAA8P//////AwAAAAD+/////w8AAAAA4P////8fAAAAAAD4////PwAAAAAAAP7//z8AAAAAAAAA//8fAAAAAAAAAAD/BwAAAAA="
+   }
+  },
+  {
+   "class": "basketball",
+   "confidence": 0.945,
+   "x": 603,
+   "y": 703,
+   "width": 108,
+   "height": 108,
+   "mask": {
+    "x": 548,
+    "y": 648,
+    "w": 55,
+    "h": 55,
+    "scale": 2,
+    "area": 2281,
+    "bits": "AAAAAAAAAAAA8P8DAAAAAP//DwAAAPD//x8AAAD+//8fAACA////PwAA4P///z8AAPz///8/AAD/////PwCA/////z8A4P////8/APD/////PwD8/////z8A//////8/wP//////H+D//////x/4//////8P/P//////D////////4f////////D////////4/////////n////////8//////9//v//////P////////7/////////f////////7/////////f////////7/////////P//////f/7//////z////////+f////////j////////8P////////h////////8P//////P/D//////x/4//////8H+P//////A/z//////wD8/////z8A/P////8PAPz/////AwD8/////wEA/P///38AAPz///8fAAD4////AwAA+P///wAAAPD//x8AAADg//8DAAAAAP8/AAAAAAAAAAAAAA=="
+   }
+  },
+  {
+   "class": "person",
+   "confidence": 0.684,
+   "x": 104.5,
+   "y": 1239,
+   "width": 19,
+   "height": 50,
+   "mask": {
+    "x": 94,
+    "y": 1214,
+    "w": 11,
+    "h": 26,
+    "scale": 2,
+    "area": 157,
+    "bits": "YAAHPPCDH/7wj3/+85///Oc///CBD3zgAx/4wA9+8Ic/PAAA"
+   }
+  },
+  {
+   "class": "basketball",
+   "confidence": 0.652,
+   "x": 496,
+   "y": 746.5,
+   "width": 28,
+   "height": 29,
+   "mask": {
+    "x": 482,
+    "y": 732,
+    "w": 15,
+    "h": 16,
+    "scale": 2,
+    "area": 166,
+    "bits": "wAP4B//H/+P/8//9//5//7//3//P/+P/4D+AAwAA"
+   }
+  },
+  {
+   "class": "person",
+   "confidence": 0.664,
+   "x": 137,
+   "y": 1236.5,
+   "width": 12,
+   "height": 37,
+   "mask": {
+    "x": 130,
+    "y": 1218,
+    "w": 7,
+    "h": 20,
+    "scale": 2,
+    "area": 72,
+    "bits": "EByP5/P7fD6Px+PxeBwOBwEA"
+   }
+  },
+  {
+   "class": "person",
+   "confidence": 0.766,
+   "x": 884.5,
+   "y": 1224.5,
+   "width": 17,
+   "height": 21,
+   "mask": {
+    "x": 876,
+    "y": 1214,
+    "w": 10,
+    "h": 12,
+    "scale": 2,
+    "area": 74,
+    "bits": "DPjgxx///POPf/75xw8A"
+   }
+  },
+  {
+   "class": "person",
+   "confidence": 0.668,
+   "x": 285,
+   "y": 1239.5,
+   "width": 10,
+   "height": 27,
+   "mask": {
+    "x": 280,
+    "y": 1226,
+    "w": 6,
+    "h": 15,
+    "scale": 2,
+    "area": 55,
+    "bits": "BMN5nud93/d9nwMA"
+   }
+  }
+ ]
+}

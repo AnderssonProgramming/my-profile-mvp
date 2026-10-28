@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { gsap, motion, scrollToTarget } from '../lib/motion'
 import { profile, offCourt } from '../data'
 import Magnetic from './Magnetic'
+import PlayerCard from './PlayerCard'
 
 const roles = ['Software Engineer', 'Full-Stack Developer', 'Teaching & Research Assistant', 'HYROX Athlete', 'Hooper']
 
@@ -35,6 +36,7 @@ export default function Hero({ ready }: { ready: boolean }) {
         .from('.hero-kicker > *', { y: 20, opacity: 0, stagger: 0.08, duration: 1 }, 0.3)
         .from('.hero-sub, .hero-ctas, .hero-meta', { y: 30, opacity: 0, stagger: 0.1, duration: 1.2 }, 0.6)
         .from('.hero-ticker', { yPercent: 100, duration: 1.2 }, 0.8)
+        .from('.pcard-wrap', { y: 220, rotateY: -180, rotateZ: -12, opacity: 0, duration: 1.8 }, 0.5)
 
       // drives the 3D ball + parallax as the hero scrolls away
       gsap.to(motion, {
@@ -47,6 +49,14 @@ export default function Hero({ ready }: { ready: boolean }) {
         opacity: 0,
         ease: 'none',
         scrollTrigger: { trigger: root.current, start: 'top top', end: 'bottom 20%', scrub: true },
+      })
+      // scroll-out lives on the inner card so it doesn't fight the intro tween on the wrapper
+      gsap.to('.pcard', {
+        yPercent: -60,
+        rotateZ: 8,
+        opacity: 0,
+        ease: 'none',
+        scrollTrigger: { trigger: root.current, start: 'top top', end: 'bottom 30%', scrub: true },
       })
       gsap.to('.hero-title-line:nth-child(2)', {
         xPercent: 18,
@@ -65,6 +75,8 @@ export default function Hero({ ready }: { ready: boolean }) {
         </span>
         <span className="mono">{profile.location} · 4.71°N 74.07°W</span>
       </div>
+
+      <PlayerCard />
 
       <h1 className="hero-title">
         <Split className="hero-title-line" text={profile.first} />

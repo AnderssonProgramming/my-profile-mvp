@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "analyze:court": "node --env-file=.env scripts/analyze-court.mjs"
   },
   "dependencies": {
     "@mediapipe/tasks-vision": "^1.2.0",
